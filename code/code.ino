@@ -27,7 +27,7 @@ void loop()
   
   if(num == 'v'){
     pixels_1.clear();
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 54; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(255,255,255));
       pixels_1.show();  
@@ -37,7 +37,7 @@ void loop()
   // 1 этаж
   
   if(num == 'a'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 6; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(255,255,255));
       pixels_1.show();  
@@ -85,7 +85,7 @@ void loop()
       }
 
   if(num == 'b'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 6; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -137,7 +137,7 @@ void loop()
       }
 
   if(num == 'c'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 12; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -190,7 +190,7 @@ void loop()
       }
 
   if(num == 'd'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 18; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -243,7 +243,7 @@ void loop()
       }
 
   if(num == 'e'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 24; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -296,7 +296,7 @@ void loop()
       }
 
   if(num == 'f'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 30; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -348,7 +348,7 @@ void loop()
       }
 
   if(num == 'g'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 36; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -400,7 +400,7 @@ void loop()
       }
 
   if(num == 'h'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 42; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
@@ -452,7 +452,7 @@ void loop()
       }
 
   if(num == 'i'){
-    pixels_1.setBrightness(255);
+    pixels_1.setBrightness(50);
     for(int i = 0; i < 48; i++){
       pixels_1.setPixelColor(i, pixels_1.Color(0,0,0));
       pixels_1.show();  
