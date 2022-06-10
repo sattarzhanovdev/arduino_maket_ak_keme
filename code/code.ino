@@ -2,7 +2,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial mySerialBT(9,10);
 
-Adafruit_NeoPixel pixels_1 = Adafruit_NeoPixel(60, 11, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel pixels_1 = Adafruit_NeoPixel(60, 6, NEO_GRB + NEO_KHZ800);
 
 long  num;
        
@@ -499,5 +499,26 @@ void loop()
         pixels_1.show();  
       }
 
-    
+      
+  if(num == 'D'){
+      for(int i = 0; i < 150; i++){
+        int randomNum = random(0, 30);
+        int randomNum1 = random(0, 53);
+        int randomNum2 = random(0, 53);
+
+        for(int i = 0; i < randomNum1 - randomNum2; i++){
+          pixels_1.setPixelColor(i, pixels_1.Color(255,255,255));
+          pixels_1.show();
+          pixels_1.setPixelColor(randomNum + 6, pixels_1.Color(0,0,0));
+          pixels_1.show();
+        }
+
+        
+        delay(5000);
+
+         
+
+      }
+    }
+
 }
